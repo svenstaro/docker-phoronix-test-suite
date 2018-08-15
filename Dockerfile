@@ -8,4 +8,6 @@ RUN apt update && \
     rm phoronix-test-suite_${PTS_VERSION}_all.deb && \
     phoronix-test-suite batch-install build-linux-kernel compress-7zip ffmpeg nginx redis sqlite stream network-loopback
 
-ENTRYPOINT run.sh $@
+WORKDIR /phoronix
+ADD run.sh /phoronix/run.sh
+ENTRYPOINT bash /phoronix/run.sh $@
