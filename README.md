@@ -9,4 +9,4 @@ The tests that will be are a sensible mix of real-world and synthetic benchmarks
 
 It's quite simple to run it as you do not need to supply any options:
 
-  docker run svenstaro/phoronix-test-suite
+    docker run svenstaro/phoronix-test-suite
