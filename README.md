@@ -1,10 +1,12 @@
-# docker-phoronix-test-suite ![Docker Automated build](https://img.shields.io/docker/automated/svenstaro/docker-phoronix-test-suite.svg) ![Docker Build Status](https://img.shields.io/docker/build/svenstaro/docker-phoronix-test-suite.svg)
+# docker-phoronix-test-suite [![Docker Automated build](https://img.shields.io/docker/automated/svenstaro/docker-phoronix-test-suite.svg)](https://hub.docker.com/r/svenstaro/docker-phoronix-test-suite/) [![Docker Build Status](https://img.shields.io/docker/build/svenstaro/docker-phoronix-test-suite.svg)](https://hub.docker.com/r/svenstaro/docker-phoronix-test-suite/)
 
 A Docker image featuring a ready-to-run installation of the Phoronix Test Suite
 
 This is designed to run entirely unattended without having to supply any options. You can find the results of the benchmark in stdout during its run.
 
 The tests that will be run are a sensible mix of real-world and synthetic benchmarks.
+
+Find it here on Docker Hub: **[svenstaro/docker-phoronix-test-suite](https://hub.docker.com/r/svenstaro/docker-phoronix-test-suite/)**
 
 ## How to use
 
