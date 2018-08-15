@@ -1,4 +1,5 @@
-# docker-phoronix-test-suite
+# docker-phoronix-test-suite ![Docker Automated build](https://img.shields.io/docker/automated/svenstaro/docker-phoronix-test-suite.svg) ![Docker Build Status](https://img.shields.io/docker/build/svenstaro/docker-phoronix-test-suite.svg)
+
 A Docker image featuring a ready-to-run installation of the Phoronix Test Suite
 
 This is designed to run entirely unattended without having to supply any options. You can find the results of the benchmark in stdout during its run.
