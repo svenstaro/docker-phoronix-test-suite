@@ -12,4 +12,4 @@ Find it here on Docker Hub: **[svenstaro/docker-phoronix-test-suite](https://hub
 
 It's quite simple to run it as you do not need to supply any options:
 
-    docker run svenstaro/phoronix-test-suite
+    docker run svenstaro/docker-phoronix-test-suite
