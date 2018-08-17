@@ -7,7 +7,7 @@ RUN apt-get update && \
     curl -LO http://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_${PTS_VERSION}_all.deb && \
     dpkg -i phoronix-test-suite_${PTS_VERSION}_all.deb && \
     rm phoronix-test-suite_${PTS_VERSION}_all.deb && \
-    phoronix-test-suite batch-install build-linux-kernel compress-7zip ffmpeg nginx redis sqlite stream && \
+    phoronix-test-suite batch-install build-linux-kernel compress-7zip ffmpeg redis sqlite stream && \
     rm -rf /var/lib/apt/lists/* && \
     mv /var/lib/phoronix-test-suite /.phoronix-test-suite
 
