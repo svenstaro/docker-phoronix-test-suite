@@ -2,7 +2,7 @@
 
 A Docker image featuring a ready-to-run installation of the Phoronix Test Suite
 
-This is designed to run entirely unattended without having to supply any options. You can find the results of the benchmark in stdout during its run.
+This is designed to run entirely unattended without having to supply any options. You can find the results of the benchmark in stdout during its run. It does **not** require root.
 
 The tests that will be run are a sensible mix of real-world and synthetic benchmarks.
 
